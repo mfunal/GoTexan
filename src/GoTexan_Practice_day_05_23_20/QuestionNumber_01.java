@@ -12,7 +12,26 @@ public class QuestionNumber_01 {
     stringTimes("Hi", 1) → "Hi"
      */
 
+public static String printTimes(String text, int count){
+String result="";
+    for(int i=0; i<count;i++){
+        result+=text;
+    } return result;
+}
 
+    public static void main(String[] args) {
+        System.out.println(printTimes("hi",6));
+
+        int n=3;
+        String b="hi";
+
+        String result="";
+        for(int i=0; i<n;i++){
+            result+=b;
+        }
+        System.out.println(result);
+
+    }
 
 
 }
