@@ -7,7 +7,7 @@ public class QuestionNumber_04 {
     public static void main(String[] args) {
 
         int arr[]={2,3,5,6,99,76,34,21};
-        int a=0;
+        int a=0; // we are using this variable to determine max number when loop is working
 
         for(int i=0 ; i< arr.length;i++){
 

@@ -15,6 +15,24 @@ public class QuestionNumber_05 {
 
     MUST use for each loop
     */
+    public static void main(String[] args) {
+        String arr[]={"A", "A", "B", "C", "C"};
+        String result="";
+        for(String each:arr){
+        int count=0;
+
+            for(String each1:arr){
+                if(each==each1){
+                    count++;
+                }
+            }if(count== 1){
+                result=each;
+            }
+        }
+        System.out.println(result);
+    }
+
+
 
 
 }
