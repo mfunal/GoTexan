@@ -14,7 +14,6 @@ public class QuestionNumber_10 {
 
     public static boolean inOrder(int a, int b, int c, boolean exception) {
         boolean result = false;
-
         if(a < b && b<c && !exception){
             result=true;
         }else if(b<c && exception){
@@ -27,6 +26,4 @@ public class QuestionNumber_10 {
     public static void main(String[] args) {
         System.out.println(inOrder(1,1,2,true));
     }
-
-
 }
