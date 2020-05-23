@@ -1,5 +1,8 @@
 package GoTexan_Practice_day_05_23_20;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class QuestionNumber_08 {
 
     /*
@@ -9,9 +12,12 @@ public class QuestionNumber_08 {
 
     public static void main(String[] args) {
 
-        String [] list={"Ayla", "Jahan", "Harika", "Ahmet"};
+        String[] list = {"Ayla", "Jahan", "Harika", "Ahmet"};
+        ArrayList<String> list1 = new ArrayList<>(Arrays.asList(list));
+        list1.remove("Ahmet");
+        System.out.println(list1);
 
+        }
 
     }
 
-}
