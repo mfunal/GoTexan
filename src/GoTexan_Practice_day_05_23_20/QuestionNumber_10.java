@@ -3,7 +3,8 @@ package GoTexan_Practice_day_05_23_20;
 public class QuestionNumber_10 {
 
     /*
-    Given three ints, a b c, return true if b is greater than a, and c is greater than b.
+    Given three ints, a b c, return true if b is greater than a, and c is greater
+    than b.
     However, with the exception that if "rule" is true, b does not need to be greater
     than a.
 
@@ -24,6 +25,6 @@ public class QuestionNumber_10 {
     }
 
     public static void main(String[] args) {
-        System.out.println(inOrder(1,1,2,true));
+        System.out.println(inOrder(1,1,3,false));
     }
 }

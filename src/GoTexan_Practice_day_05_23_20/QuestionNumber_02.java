@@ -1,5 +1,7 @@
 package GoTexan_Practice_day_05_23_20;
 
+import java.util.Arrays;
+
 public class QuestionNumber_02 {
     public static void main(String[] args) {
 
@@ -12,10 +14,8 @@ public class QuestionNumber_02 {
             if(arr[i].equals("the")) {
                 count++;
             }
-
         }
         System.out.println(count);
-
 
     }
 }

@@ -40,7 +40,7 @@ public class QuestionNumber_09 {
         int count=1;
 
         for(int i=0; i<arr1.length;i++) {
-            if (arr1[i] == ' ' ) { // at this time we counted each ' ' and added 1 more tp reach the count of words
+            if (arr1[i] ==' ') { // at this time we counted each ' ' and added 1 more tp reach the count of words
                 count++;
             }
         }

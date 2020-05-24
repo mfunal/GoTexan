@@ -14,7 +14,5 @@ public class QuestionNumber_07 {
 
         System.out.println(a);
         System.out.println(b);
-
-
     }
 }

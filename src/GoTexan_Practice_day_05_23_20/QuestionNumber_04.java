@@ -7,8 +7,8 @@ public class QuestionNumber_04 {
     public static void main(String[] args) {
 
         int arr[]={2,3,5,6,99,76,34,21};
-        int a=0; // we are using this variable to determine max number when loop is working
-
+        int a=Integer.MIN_VALUE; // we are using this variable to determine max number when loop is working
+        System.out.println(a);
         for(int i=0 ; i< arr.length;i++){
 
             if(a<arr[i]){
@@ -16,7 +16,17 @@ public class QuestionNumber_04 {
             }
         }
         System.out.println(a);
-
+        System.out.println("==========================");
+        max(arr); // we used method
+    }
+    public static void max(int [] arr){
+       int a=Integer.MIN_VALUE;
+       for(int each : arr){
+           if(each>a){
+               a=each;
+           }
+       }
+        System.out.println(a);
     }
 
 }

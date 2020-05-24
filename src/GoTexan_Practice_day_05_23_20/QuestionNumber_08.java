@@ -16,8 +16,16 @@ public class QuestionNumber_08 {
         ArrayList<String> list1 = new ArrayList<>(Arrays.asList(list));
         list1.remove("Ahmet");
         System.out.println(list1);
-
-        }
+        System.out.println("===================");
+        removeName(list,"Jahan");// we can use this method for this question
 
     }
+
+    public static void removeName(String[] arr, String remove) {
+        ArrayList<String> list=new ArrayList<>(Arrays.asList(arr));
+        list.remove(remove);
+        System.out.println(list);
+
+    }
+}
 

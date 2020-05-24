@@ -1,5 +1,7 @@
 package GoTexan_Practice_day_05_23_20;
 
+import java.util.ArrayList;
+
 public class QuestionNumber_05 {
 
     /*
@@ -16,20 +18,37 @@ public class QuestionNumber_05 {
     MUST use for each loop
     */
     public static void main(String[] args) {
-        String arr[]={"A", "A", "B", "C", "C"};
+        String arr[]={"A", "B", "C", "C", "D"};
         String result="";
-        for(String each:arr){
-        int count=0;
-
+        for(String each: arr){
+            int count=0;
             for(String each1:arr){
                 if(each==each1){
                     count++;
                 }
-            }if(count== 1){
-                result=each;
-            }
+            }if(count==1){
+                result+=each;}
         }
         System.out.println(result);
+        System.out.println("============================");
+        unique(arr);
+    }
+
+    public static void unique(String [] arr){
+        ArrayList <String> result= new ArrayList<>();
+        for(String each: arr){
+            int count=0;
+            for(String each1:arr){
+                if(each==each1){
+                    count++;
+                }
+
+
+            }if(count==1){
+                result.add(each);}
+        }
+        System.out.println(result);
+
     }
 
 

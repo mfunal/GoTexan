@@ -7,7 +7,8 @@ public class QuestionNumber_03 {
 // Replit Question "Arrays - Front Piece"
 
 // Given an int array of any length, print a new array of its first
-// 2 elements. If the array is smaller than length 2, use whatever elements are present.
+// 2 elements. If the array is smaller than length 2, use whatever
+// elements are present.
 /*
 Example:
 input 1, 2, 3
@@ -30,9 +31,26 @@ public static void main(String[] args) {
         System.out.println(Arrays.toString(arr2));
 
     }
+    System.out.println("==========================");
+    first2(num);
 
 
 }
+
+    public static void first2(int []arr){// same question as method.
+    int []arr1=new int[2];
+    int []arr2=new int[1];
+
+    if(arr.length>2){
+        arr1[0]=arr[0];
+        arr1[1]=arr[1];
+        System.out.println(Arrays.toString(arr1));
+    }else{
+        arr2[0]=arr[0];
+        System.out.println(Arrays.toString(arr2));
+    }
+
+    }
 
 
 }

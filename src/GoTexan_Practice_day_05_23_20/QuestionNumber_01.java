@@ -4,7 +4,8 @@ public class QuestionNumber_01 {
 
 
     /*
-    Please create a method prints the given string and a non-negative int n, return a larger string that is n copies of the original string.
+    Please create a method prints the given string and a non-negative int n, return
+    a larger string that is n copies of the original string.
 
     Examples:
     stringTimes("Hi", 2) → "HiHi"
