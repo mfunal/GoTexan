@@ -23,7 +23,6 @@ public class QuestionNumber_10 {
             result=false;
         } return result;
     }
-
     public static void main(String[] args) {
         System.out.println(inOrder(1,1,3,false));
     }
